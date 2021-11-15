@@ -21,7 +21,7 @@ jobs:
             if ((command > 0)); then
               git add export/
               git commit -m "Update SWC definition [ci skip]"
-              git push -q https://${GITHUB_TOKEN}@github.com/${GIT_ORGANIZATION}/SWC-registry.git master
+              git push -q https://${GITHUB_TOKEN}@github.com/${GIT_ORGANIZATION}/CWC-registry.git master
             fi
 
   swc-yaml-config-schema:
