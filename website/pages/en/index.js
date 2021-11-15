@@ -126,7 +126,7 @@ const Logo = props => (
 
 const ProjectTitle = () => (
   <h2 className="projectTitle">
-    SWC Registry
+    CWC Registry
     <small>{siteConfig.tagline}</small>
   </h2>
 );
@@ -204,11 +204,8 @@ class Index extends React.Component {
       <Container>
         <HomeSplash language='' />
         <div className="mainContainer">
-          <p>The following table contains an overview of the SWC registry. 
-            Each row consists of an SWC identifier (ID), weakness title, CWE parent
-             and list of related code samples. The links in the ID and Test Cases
-             columns link to the respective SWC definition. Links in the 
-             Relationships column link to the CWE Base or Class type.</p>
+          <p>This is an overview of the CWC registry, a weakness database for Hyperledger Fabric "smart contracts" (in Fabric parlance: chaincode), in the style of the <a href="https://swcregistry.io">SWC Registry</a>. Each row consists of a CWC identifier (ID), weakness title, CWE parent and similar SWC entries (if applicable), and list of related code samples.
+              This repository is currently maintained in conjunction with ongoing research efforts at the <a href="https://ftsrg.mit.bme.hu/">Fault Tolerant Systems Research Group at BME</a>. Any contributions are wellcome. To reach out to us, contact Konrad Hambuch or Imre Kocsis - konrad.hambuch - at - edu.bme.hu, kocsis.imre - at - vik.bme.hu.</p>
           <RenderSWC />
         </div>
       </Container>
