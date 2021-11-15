@@ -31,7 +31,7 @@ for (let i = 0; i < files.length; i += 1) {
   const file = files[i];
   const content = fs.readFileSync(file, 'utf8');
   const parsed = md2json.parse(content);
-  const [SWCName, ...rest] = /(SWC)-[0-9]+/.exec(file);
+  const [SWCName, ...rest] = /(CWC)-[0-9]+/.exec(file);
   const root = parsed.Title;
   result[SWCName] = {
     markdown: content,
