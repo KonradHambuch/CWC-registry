@@ -8,15 +8,15 @@ var hljsDefineSolidity = require('highlightjs-solidity');
 
 const siteConfig = {
   title: 'Overview',
-  tagline: 'Smart Contract Weakness Classification and Test Cases',
-  url: 'http://swcregistry.io',
+  tagline: 'Chaincode Weakness Classification and Test Cases',
+  url: 'https://konradhambuch.github.io/CWC-registry',
   baseUrl: '/',
-  projectName: 'SWC-registry',
+  projectName: 'CWC-registry',
   organizationName: 'SmartContractSecurity',
   customDocsPath: 'website/docs',
   headerLinks: [
-    { doc: 'SWC-100', label: 'Registry' },
-    { href: 'https://github.com/SmartContractSecurity/SWC-registry', label: 'Github' },
+    { doc: 'CWC-100', label: 'Registry' },
+    { href: 'https://github.com/SmartContractSecurity/CWC-registry', label: 'Github' },
   ],
   headerIcon: 'img/docusaurus.svg',
   footerIcon: 'img/docusaurus.svg',
@@ -34,21 +34,17 @@ const siteConfig = {
       return hljsDefineSolidity(hljs);
     }
   },
-  cname: 'swcregistry.io',
+  cname: 'cwcregistry.io',
   algolia: {
-    apiKey: '064ab94cd5d5382009d9640000aeea98',
-    indexName: 'smartcontractsecurity',
+    apiKey: '7ec828205c574bfce925d3ce488b57c9',
+    indexName: 'hkoni',
   },
   scripts: [],
-  footerscripts: [
-    'https://cdn.jsdelivr.net/gh/SmartContractSecurity/SWC-registry@website/website/scripts/lineNumbers.js',
-  ],
   onPageNav: 'separate',
   cleanUrl: true,
   ogImage: 'img/docusaurus.png',
   twitterImage: 'img/docusaurus.png',
-  repoUrl: 'https://github.com/SmartContractSecurity/SWC-registry',
-  gaTrackingId: 'UA-64552723-12'
+  repoUrl: 'https://github.com/KonradHambuch/CWC-registry'  
 };
 
 module.exports = siteConfig;
