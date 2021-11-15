@@ -57,7 +57,7 @@ const genrateTestCases = () => {
           const testCasePath = file.split('../')[1];
           const splitedPath = testCasePath.split('/')
           const name = splitedPath[splitedPath.length - 1]
-          result[`${issue.id}`].push(name.replace('.yaml', '.sol'));
+          result[`${issue.id}`].push(name.replace('.yaml', '.jol'));
         }
       } catch (e) {
       }
