@@ -60,7 +60,7 @@ const populateDocumentation = () => {
         for (let index = 0; index < samples.length; index += 1) {
 
           const configPath = samples[index];
-          const solidityPath = samples[index].replace('.yaml', '.sol');
+          const solidityPath = samples[index].replace('.yaml', '.java');
 
           const samplesContent = fs.readFileSync(solidityPath, 'utf8');
           const configContent = fs.readFileSync(configPath, 'utf8');
