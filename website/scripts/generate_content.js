@@ -48,7 +48,7 @@ const populateDocumentation = () => {
   for (let i = 0; i < files.length; i += 1) {
     const file = files[i];
     const swcContent = fs.readFileSync(file, 'utf8');
-    const nameParsed = /(SWC)-[0-9]+/.exec(file);
+    const nameParsed = /(CWC)-[0-9]+/.exec(file);
     let name;
     let samplesTemplate;
     let template = swcContent;
