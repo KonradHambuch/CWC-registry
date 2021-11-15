@@ -6,7 +6,7 @@ const files = fs.readdirSync(DOCS_LOCATION);
 
 const sidebar = {
   "docs": {
-    "SWC ID": files.map(file => file.split('.md')[0]),
+    "CWC ID": files.map(file => file.split('.md')[0]),
   }
 }
 
