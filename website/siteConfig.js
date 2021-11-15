@@ -10,7 +10,7 @@ const siteConfig = {
   title: 'Overview',
   tagline: 'Chaincode Weakness Classification and Test Cases',
   url: 'https://konradhambuch.github.io/CWC-registry',
-  baseUrl: '/',
+  baseUrl: '/CWC-registry/',
   projectName: 'CWC-registry',
   organizationName: 'SmartContractSecurity',
   customDocsPath: 'website/docs',
