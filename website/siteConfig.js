@@ -34,7 +34,7 @@ const siteConfig = {
       return hljsDefineSolidity(hljs);
     }
   },
-  cname: 'cwcregistry.io',
+  cname: 'https://konradhambuch.github.io/CWC-registry',
   algolia: {
     apiKey: '7ec828205c574bfce925d3ce488b57c9',
     indexName: 'hkoni',
