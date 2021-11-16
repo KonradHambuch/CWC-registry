@@ -22,8 +22,8 @@ const siteConfig = {
   footerIcon: 'img/docusaurus.svg',
   favicon: 'img/favicon.png',
   colors: {
-    primaryColor: '#ee4747',
-    secondaryColor: '#7dbef6',
+    primaryColor: '#7dbef6',
+    secondaryColor: '#ee4747',
   },
   headerIcon: '',
   copyright: `Copyright © ${new Date().getFullYear()} SmartContractSecurity`,
