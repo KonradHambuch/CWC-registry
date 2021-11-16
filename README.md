@@ -1,8 +1,4 @@
-# Smart Contract Weakness Classification Registry
-[![CircleCI](https://circleci.com/gh/SmartContractSecurity/SWC-registry/tree/master.svg?style=svg)](https://circleci.com/gh/SmartContractSecurity/SWC-registry/tree/master)
-[![Pages](https://img.shields.io/badge/pages-online-blue.svg)](https://smartcontractsecurity.github.io/SWC-registry/)
-[![Discord](https://img.shields.io/discord/481002907366588416.svg)](https://discord.gg/qcNvR2r)
-
+# Chaincode Weakness Classification Registry
 
 The Smart Contract Weakness Classification Registry (SWC Registry) is an implementation of the weakness classification scheme proposed in [EIP-1470](https://github.com/ethereum/EIPs/issues/1469). It is loosely aligned to the terminologies and structure used in the Common Weakness Enumeration ([CWE](https://cwe.mitre.org)) while overlaying a wide range of weakness variants that are specific to smart contracts.
 
@@ -12,7 +8,7 @@ The goals of this project are as follows:
 - Define a common language for describing security issues in smart contract systems' architecture, design, or code.
 - Serve as a way to train and increase performance for smart contract security analysis tools.
 
-## Create a new SWC entry
+## Create a new CWC entry
 
 Make sure that there is no matching weakness in the registry. Ideally, also coordinate with the community in [#swc-registry](https://discord.gg/qcNvR2r) to prevent conflicting entries. Create a file with a new SWC ID in the [entries](./entries) directory. Use the [template](./entries/template.md) and describe all weakness attributes. 
 
@@ -102,9 +98,3 @@ From time to time there will be challenges on [Gitcoin](https://gitcoin.co). Fol
 
 SWCs should be concerned with weaknesses that can be identified within the code of a smart contract, typically Solidity. 
 Weaknesses in 'smart contract adjacent' code should not be included. For example, the [gas siphoning attack](https://github.com/SmartContractSecurity/SWC-registry/pull/140) occurs in wallet code, and should be protected against in wallet code.
-
-## Contact
-
-This repository is maintained by the team behind [MythX](https://mythx.io).
-
-Please join the #swc-registry channel on the [MythX Discord](https://discord.gg/qcNvR2r) for discussions.
