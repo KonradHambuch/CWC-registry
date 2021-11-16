@@ -16,14 +16,14 @@ const siteConfig = {
   customDocsPath: 'website/docs',
   headerLinks: [
     { doc: 'CWC-100', label: 'Registry' },
-    { href: 'https://github.com/SmartContractSecurity/CWC-registry', label: 'Github' },
+    { href: 'https://github.com/KonradHambuch/CWC-registry', label: 'Github' },
   ],
   headerIcon: 'img/docusaurus.svg',
   footerIcon: 'img/docusaurus.svg',
   favicon: 'img/favicon.png',
   colors: {
-    primaryColor: '#4d504e',
-    secondaryColor: '#205C3B',
+    primaryColor: '#ee4747',
+    secondaryColor: '#7dbef6',
   },
   headerIcon: '',
   copyright: `Copyright © ${new Date().getFullYear()} SmartContractSecurity`,
