@@ -1,0 +1,8 @@
+description: Modifying non own global variable in Init function
+issues:
+- id: CWC-105
+  count: 1
+  locations: 
+  - bytecode_offsets: {}
+    line_numbers:
+      GlobalModificationInFunction.java: [16]
