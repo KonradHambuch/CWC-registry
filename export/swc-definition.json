@@ -45,12 +45,12 @@
     }
   },
   "CWC-105": {
-    "markdown": "# Title\nInitializing global variables in Init Function\n\n## Relationships\nTODO\n\n## Description\nInit function is not called on all docker startups\n\n## Remediation\nTODO\n",
+    "markdown": "# Title\nInitializing global variables in Init Function\n\n## Relationships\nTODO\n\n## Description\nInit function is not called on all docker startups, variables set in init function can cause stale state.\n\n## Remediation\nSet variables in constructor\n",
     "content": {
       "Title": "Initializing global variables in Init Function",
       "Relationships": "TODO",
-      "Description": "Init function is not called on all docker startups",
-      "Remediation": "TODO"
+      "Description": "Init function is not called on all docker startups, variables set in init function can cause stale state.",
+      "Remediation": "Set variables in constructor"
     }
   },
   "CWC-106": {
