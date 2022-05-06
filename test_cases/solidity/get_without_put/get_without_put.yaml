@@ -1,0 +1,8 @@
+description: Deposit box with effect-free statement
+issues:
+- id: CWC-100
+  count: 1
+  locations: 
+  - bytecode_offsets: {}
+    line_numbers:
+      get_without_put.java: [3]
