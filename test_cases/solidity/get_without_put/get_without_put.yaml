@@ -1,6 +1,6 @@
 description: GetState without saving to variable
 issues:
-- id: CWC-105
+- id: CWC-113
   count: 1
   locations: 
   - bytecode_offsets: {}
