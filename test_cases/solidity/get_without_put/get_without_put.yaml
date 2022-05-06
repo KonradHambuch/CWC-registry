@@ -1,6 +1,6 @@
-description: Deposit box with effect-free statement
+description: GetState without saving to variable
 issues:
-- id: CWC-100
+- id: CWC-105
   count: 1
   locations: 
   - bytecode_offsets: {}
