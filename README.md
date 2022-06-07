@@ -8,6 +8,8 @@ The goals of this project are as follows:
 - Define a common language for describing security issues in smart contract systems' architecture, design, or code.
 - Serve as a way to train and increase performance for smart contract security analysis tools.
 
+**This project is forked from the SWC-registry project with a similar goal of collecting common weaknesses of Hyperledger Fabric chaincodes.**
+
 ## Create a new CWC entry
 
 Make sure that there is no matching weakness in the registry. Ideally, also coordinate with the community in [#swc-registry](https://discord.gg/qcNvR2r) to prevent conflicting entries. Create a file with a new SWC ID in the [entries](./entries) directory. Use the [template](./entries/template.md) and describe all weakness attributes. 
@@ -80,21 +82,3 @@ The configuration contains meta-information about the weaknesses contained in a 
 - Line 5: `locations` has sub attributes that allow humans and tools to easier identify where issues exists in the test case. 
 - Line 6-7: `bytecode_offsets` is a tuple consisting of the keccak256 hash of the runtime or creation byte code and a list of valid offsets. 
 - Line 8-9: `line_numbers` is a tuple consisting of the source file and a list of valid line numbers. 
-
-## Contributing
-
-Before you create a PR for the first time make sure you have read:
-
-- the sections [Create a new SWC entry](#create-a-new-swc-entry) and [Create a new test case](#create-a-new-test-case).
-- read several existing SWC definitions and their test cases. 
-
-From time to time there will be challenges on [Gitcoin](https://gitcoin.co). Follow the below link to check what challenges are currently open.  
-
-<a href="https://gitcoin.co/explorer?q=SWC">
-    <img src="https://gitcoin.co/funding/embed?repo=https://github.com/SmartContractSecurity/SWC-registry/&max_age=60&badge=1">
-</a>
-
-### Scope of Weaknesses 
-
-SWCs should be concerned with weaknesses that can be identified within the code of a smart contract, typically Solidity. 
-Weaknesses in 'smart contract adjacent' code should not be included. For example, the [gas siphoning attack](https://github.com/SmartContractSecurity/SWC-registry/pull/140) occurs in wallet code, and should be protected against in wallet code.
