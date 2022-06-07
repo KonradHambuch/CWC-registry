@@ -1,11 +1,11 @@
 {
   "CWC-100": {
-    "markdown": "# Title \nNo input validation\n\n## Relationships \n[CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n\n## Description  \nTODO\n\n## Remediation\nTODO",
+    "markdown": "# Title \nNo input validation\n\n## Relationships \n[CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n\n## Description  \nCommon code weakness. Validating inputs is important for proper functioning of the chaincode.\n\n## Remediation\nAssert functions\n",
     "content": {
       "Title": "No input validation",
       "Relationships": "[CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)",
-      "Description": "TODO",
-      "Remediation": "TODO"
+      "Description": "Common code weakness. Validating inputs is important for proper functioning of the chaincode.",
+      "Remediation": "Assert functions"
     }
   },
   "CWC-101": {
